@@ -36,15 +36,13 @@ class Main {
             scanner.nextLine(); 
             s.addStudent(new Student(name, age));
             break;
-        /*  case 2:
+          case 2:
             System.out.println("Lista studentów:");
             var students = s.getStudents();
             for (Student current : students) {
               System.out.println(current.ToString());
-              System.out.nextline();
             }
             break;
-          */
           case 3:
             wybor = false;
             break;
